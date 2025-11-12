@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Techhub.css">
+</head>
+<body>
+
+    <header>
+  <nav class="navbar">
+    <a href="#" class="nav-logo">
+    <img src="Assets/RJ logo.jpeg" alt="RJ Tech Hub Logo" class="logo-img" />
+  </a>
+
+    <!-- Mobile menu open button -->
+    <button id="menu-open-button" class="fas fa-bars"></button>
+
+    <ul class="nav-menu">
+      <!-- Mobile menu close button -->
+      <button id="menu-close-button" class="fas fa-times"></button>
+
+      <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+      <li class="nav-item"><a href="#footer" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+    <!-- Hero section -->
+      <section class="hero-section" id="home">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Your Digital Tech Space</h2> 
+            <h3 class="subtitle">Your One-Stop Cyber Café — A Welcoming Space</h3>
+            <p class="description">Connect smarter at RJ TechHub — Your space for speed ,internet, printing & more.</p>
+            <div class="buttons">
+              <a href="#services" class="button order-now">Explore Services</a>
+              <a href="#footer" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="Assets/cyber cafe pic 2.jpg" alt="Coffee" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="Assets/cyber cafe pic 1.jpg" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">At RJ TechHub, we provide more than just internet access. Our cyber café is a modern space where you can explore the digital world with ease. We combine convenience and technology to give you a seamless digital experience. With reliable services and a welcoming environment, we’re here to make your tech experience smooth and enjoyable.</p>
+            <!-- <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <h2 class="services-title" id="services">Our Services</h2>
+      <p class="services-subtitle">Explore the digital solutions we offer — fast, reliable, and tailored for your needs.</p>
+      <div class="services">
+          <div class="service-box">
+            <div class="front-face">
+               <div class="icon">
+                  <i class="fa-solid fa-print"></i>
+               </div>
+               <span>Printing & Scanning</span>
+            </div>
+            <div class="back-face">
+               <span>📄 Printing & Scanning</span>
+               <p>
+                  Quick and affordable printing, scanning, and photocopying services.
+               </p>
+            </div>
+         </div>
+         <div class="service-box">
+            <div class="front-face">
+               <div class="icon">
+                  <i class="fa-solid fa-globe"></i>
+               </div>
+               <span>Browsing & Internet</span>
+            </div>
+            <div class="back-face">
+               <span>🌐 Browsing & Internet</span>
+               <p>
+                  Fast browsing computers with reliable internet for your needs.
+               </p>
+            </div>
+         </div>
+         <div class="service-box">
+            <div class="front-face">
+               <div class="icon">
+                  <i class="fa-solid fa-headphones"></i>
+               </div>
+               <span>Accessories</span>
+            </div>
+            <div class="back-face">
+               <span>🖥️ Accessories</span>
+               <p>
+                  We sell flash drives, headphones, mouse, keyboards, and more.
+            </div>
+         </div> 
+
+
+         <div class="service-box">
+            <div class="front-face">
+               <div class="icon">
+                  <i class="fa-solid fa-camera"></i>
+               </div>
+               <span>Photo & Passport Services</span>
+            </div>
+            <div class="back-face">
+               <span>📸 Photo & Passport Services</span>
+               <p>
+                  Professional photo printing and passport photos.
+            </div>
+         </div> 
+         
+    
+      </div>
+
+    <!-- Newsletter Subscription Section -->
+<section class="newsletter">
+  <div class="newsletter-container">
+    <form action="#" class="subscribe-form"  onsubmit="event.preventDefault(); alert('Thanks for subscribing!');">
+      <p class="subscribe-text"><strong>Sign up for our newsletter</strong></p>
+      
+      <input 
+        type="email" 
+        class="subscribe-input" 
+        placeholder="Enter your email" 
+        required 
+      />
+
+      <button type="submit" class="subscribe-btn">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+  <!-- Footer -->
+
+  <footer class="footer" id="footer">
+  <div class="footer-container">
+    <!-- About Section -->
+    <div class="footer-about">
+      <h3>About RJ TechHub</h3>
+      <p>
+        We provide top-notch IT services, printing, and digital solutions tailored
+        for businesses and individuals.
+      </p>
+      <!-- <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div> -->
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p><i class="fas fa-home"></i> Nairobi, Kenya</p>
+      <p><i class="fas fa-envelope"></i> Rjtechhub@gmail.com</p>
+      <p><i class="fas fa-phone"></i> +254 722 333 456</p>
+    </div>
+
+    <!-- Opening Hours -->
+    <div class="footer-hours">
+      <h4>Opening Hours</h4>
+      <p>Mon - Thu: 8am - 7pm</p>
+      <p>Fri - Sat: 8am - 1am</p>
+      <p>Sunday: 9am - 10pm</p>
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div class="footer-bottom">
+    <p>© 2025 RJ TechHub. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const menu = document.querySelector('.nav-menu');
+  const openBtn = document.getElementById('menu-open-button');
+  const closeBtn = document.getElementById('menu-close-button');
+
+  openBtn.addEventListener('click', () => {
+    menu.classList.add('show');
+    openBtn.style.display = 'none'; // hide hamburger when open
+  });
+
+  closeBtn.addEventListener('click', () => {
+    menu.classList.remove('show');
+    openBtn.style.display = 'block'; // show hamburger again
+  });
+
+  // close menu when a link is clicked
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      menu.classList.remove('show');
+      openBtn.style.display = 'block';
+    });
+  });
+});
+</script>
+
+
+</body>
+</html>
+
